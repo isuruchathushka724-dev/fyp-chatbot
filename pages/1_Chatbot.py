@@ -32,7 +32,7 @@ if prompt := st.chat_input('Message AI...'):
     with st.chat_message('assistant'):
         with st.spinner('Thinking...'):
             try:
-                client = Groq(api_key='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')
+                client = Groq(api_key=st.secrets['GROQ_API_KEY'])
                 response = client.chat.completions.create(
                     model=model_choice,
                     max_tokens=max_tokens,
