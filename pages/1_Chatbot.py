@@ -8,7 +8,7 @@ with st.sidebar:
     st.divider()
     model_choice = st.selectbox('Model', ['llama-3.3-70b-versatile', 'llama3-8b-8192'], index=0)
     max_tokens = st.slider('Max tokens', 100, 2000, 1024, 100)
-    system_prompt = st.text_area('System prompt', value='You are a helpful AI assistant.', height=100)
+    system_prompt = st.text_area('System prompt', value='You are a helpful AI assistant. Always respond in both Sinhala and English. First give the answer in Sinhala, then in English.', height=100)
     st.divider()
     if st.button('Clear chat', use_container_width=True):
         st.session_state.messages = []
