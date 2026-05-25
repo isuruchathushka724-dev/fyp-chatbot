@@ -35,4 +35,4 @@ st.markdown('''
 ''')
 
 st.divider()
-st.info('👈 Sidebar එකෙන් navigate කරන්න!')
+st.info('👈 👈 Use the sidebar to navigate between pages!')
