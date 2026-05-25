@@ -20,7 +20,7 @@ st.info('Naming convention: Leading number sets order. Underscores become spaces
 
 st.divider()
 st.header('2. This App is a Multi-Page App!')
-st.success('ඔයා දැන් use කරන app එකම Multi-Page App example එකයි!')
+st.success('You are currently using this app as a Multi-Page App example!')
 
 pages = {
     'app.py': 'Home — Overview of all sessions',
